@@ -1,0 +1,28 @@
+.box{
+    background-color: pink;
+    width: 90%;
+    margin: 10%
+}
+h1{
+    color: white;
+    text-align: center;
+    size: 3;
+}
+h2{
+    font: inherit;
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white; 
+    text-align: center;
+}
+h4{
+    color: black;
+    margin-right:50%;
+}
+image{
+    size: 15%;
+    margin: 0auto;
+    padding: 20%;
+}
