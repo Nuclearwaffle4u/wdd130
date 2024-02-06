@@ -1,4 +1,4 @@
-div{
+#content{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -34,6 +34,7 @@ nav a:hover{
 }
 h4{
     color: black;
+    text-align: center;
 }
 .book, .join{
     background-color:#FFFAC2;
@@ -73,6 +74,9 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+#hero-img{
+    width:100%;
+}
 .icon {
     width: 80px;
 }
