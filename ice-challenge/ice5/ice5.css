@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    font-size: 0;
+    padding: 0;
+    background-color: gray;
+}
+.header{
+    align-content: center;
+
+}
+.circle{
+    width: 20%;
+    border-radius: 50%;    
+    margin: 3%;
+    border: 2vw solid #444;
+}
