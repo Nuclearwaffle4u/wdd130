@@ -102,10 +102,6 @@ footer .social img{
     width: 80px;
     padding-top: 10px;
 }
-#logo_link{
-    width: 80px;
-    padding-top: 5px;
-}
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     color: cornflowerblue;
@@ -115,4 +111,8 @@ footer .social img{
 }
 main section img {
     box-sizing: border-box;
+}
+#logo_link{
+    width: 80px;
+    padding-top: 5px;
 }
