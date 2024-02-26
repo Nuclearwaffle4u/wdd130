@@ -1,0 +1,14 @@
+nav {
+    color:black;
+    text-decoration: none;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background-color:lightgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
