@@ -56,7 +56,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: var(--headline-color-on-white);
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
