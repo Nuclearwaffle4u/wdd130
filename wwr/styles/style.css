@@ -171,11 +171,13 @@ main section img {
     width: 80px;
     padding-top: 10px;
 }
+.home-grid{
+    display: grid;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
-        display: grid;
     }
     nav, footer {
         flex-direction: column;
