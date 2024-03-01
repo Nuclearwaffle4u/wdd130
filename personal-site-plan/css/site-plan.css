@@ -1,25 +1,25 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
   --secondary-color: lightgray ;
   --accent1-color: #A42212;
-  --accent2-color: grey;
+  --accent2-color: white;
   --heading-font: "Caveat";
   --paragraph-font: "Caveat";
 
-  --headline-color-on-grey: #396E94; 
+  --headline-color-on-white: #396E94; 
   --headline-color-on-color: white;  
-  --paragraph-color-on-grey: #396E94; 
-  --paragraph-color-on-color: grey;
+  --paragraph-color-on-white: #396E94; 
+  --paragraph-color-on-color: white;
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
   --nav-background-color: lightgray;
-  --nav-hover-link-color: grey;
+  --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
 
@@ -41,7 +41,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-grey);
+  color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
@@ -63,7 +63,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-grey);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
@@ -106,7 +106,6 @@ nav {
 }
 nav  {
   list-style-type: none;
-  display: flex;
 
 }
 nav a {
