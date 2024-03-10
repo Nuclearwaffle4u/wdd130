@@ -1,0 +1,58 @@
+header {
+    background-color:#780000;
+    display: grid;
+    grid-template-columns:  150px auto;
+}
+nav a:hover{
+    background-color:#FFFAC2;
+    color:black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color:#780000;
+    color:black;
+    padding:25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}  
+footer .social img{
+       padding-top: 15px; 
+} 
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+    background-color: #FFFAC2;
+    height: 725px;
+}
+h1{
+    text-align: center;
+}
+img{
+    align-items: baseline;
+}
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+}
