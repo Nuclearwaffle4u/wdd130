@@ -1,12 +1,64 @@
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #396E94   ;
+    --secondary-color: lightgray ;
+    --accent1-color: #A42212;
+    --accent2-color: white;
+    --heading-font: "Caveat";
+    --paragraph-font: "Caveat";
+  
+    --headline-color-on-white: #396E94; 
+    --headline-color-on-color: white;  
+    --paragraph-color-on-white: #396E94; 
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: lightgray;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
 header {
-    background-color:#780000;
+    background-color:var(--headline-color-on-color );
     display: grid;
     grid-template-columns:  150px auto;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-}
+nav {
+    background-color: var(--headline-color-on-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+      display: flex;
+      justify-content: space-around;
+  }
+  nav  {
+    list-style-type: none;
+  
+  }
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Caveat' ;
+    background-color: var(--headline-color-on-color);
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
 footer{
     background-color:#780000;
     color:black;
