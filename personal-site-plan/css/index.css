@@ -23,20 +23,24 @@ header {
     background-color: black;
     display: grid;
     grid-template-columns:  150px auto;
+    padding:0%;
+    margin:0%;
 }
 nav {
+    padding:0%;
+    margin:0%;
     background-color: lightskyblue;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
-      display: flex;
-      justify-content: space-around;
-  }
-  nav  {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-  
   }
+
   nav a {
+    padding:0%;
+    margin:0%;
     padding:1em;
     min-width: 120px;
     text-decoration: none;
@@ -50,7 +54,20 @@ nav {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+  #logo_link{
+    width: 80px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+  }
+  .logo{
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   body {
+    /* display: grid; */
+    grid-template-columns:repeat(6, 1fr);
     max-width: 1200px;
     margin: 0 auto;
     padding: 4em;
@@ -58,6 +75,16 @@ nav {
     text-align: center;
     font-family:'Caveat' ;
     background-color: lightgray;
+  }
+  img{
+    width: 100px;
+  }
+  .img1{
+    grid-column: 4;
+  }
+  .img2{
+    grid-column: 4;
+    grid-row: 4;
   }
   h1{
     font-size: 125%;

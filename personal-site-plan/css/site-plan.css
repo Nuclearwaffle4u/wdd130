@@ -22,10 +22,6 @@ Fonts are separated by a | */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
-
-
-
-
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -33,7 +29,7 @@ body {
   font-size: 18px;
   text-align: center;
   font-family:'Caveat' ;
-  background-color: #999;
+  background-color: lightgray;
 }
 img {
   padding: 10%;
@@ -62,7 +58,16 @@ header {
     display: grid;
     grid-template-columns:  150px auto;
 }
-
+#logo_link{
+  width: 80px;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.logo{
+  width: 80px;
+  padding-top: 10px;
+}
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
